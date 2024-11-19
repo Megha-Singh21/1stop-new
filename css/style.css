@@ -501,3 +501,23 @@ footer {
 .bg-darkblue{
   background-color: #1E455A;
 }
+
+.bg-trans{
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+.bg-trans::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top:0;
+  left:-120px;
+  background-color: #fff;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-20deg, 0deg);
+}
