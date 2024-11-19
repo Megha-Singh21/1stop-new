@@ -496,3 +496,8 @@ footer {
   background-position: center;
   background-size: cover;
 }
+
+/* login */
+.bg-darkblue{
+  background-color: #1E455A;
+}
