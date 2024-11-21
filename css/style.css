@@ -528,3 +528,7 @@ footer {
   bottom: 50px;
   right: 50px;
 }
+
+.mentors .card{
+  height: 300px;
+}
