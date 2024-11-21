@@ -532,3 +532,8 @@ footer {
 .mentors .card{
   height: 300px;
 }
+
+.bg-testi{
+  background-image: url('../images/bg-img-3.png');
+  background-size: cover;
+}
