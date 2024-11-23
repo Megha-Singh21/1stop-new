@@ -64,7 +64,7 @@ li{
 }
 
 .head-1 {
-  background: linear-gradient(90deg, #2B396E 0%, #FF6700 60%);
+  background: linear-gradient(90deg, #8607f6 0%, #FF6700 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -353,10 +353,7 @@ footer {
 }
 
 .pdp-section {
-  background-image: url('../images/Ellipse-21.png');
-  background-position: center;
-  background-size: cover;
-  height: 715px;
+  background-image: linear-gradient(90deg, rgb(26, 1, 73), rgb(71, 3, 155), rgb(26, 1, 73));
 }
 
 .btn-style4 {
