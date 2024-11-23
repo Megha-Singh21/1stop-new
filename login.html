@@ -97,10 +97,17 @@
     <!-- footer -->
     <!-- whatsapp icon -->
      <div class="fixed-icon">
-        <a href="https://wa.me/+91">
+        <a href="https://wa.me/+91" data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp Us">
             <img src="images/whatsapp-icon.png" width="50px" alt="">
         </a>
-     </div>
+    </div>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 
     <footer>
         <div class="container pb-3 pt-4">

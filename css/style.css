@@ -249,7 +249,10 @@ li{
   padding-top: 80px;
 
 }
+.mentors .owl-carousel .owl-stage-outer {
+  padding-top: 0px;
 
+}
 .owl-carousel .owl-nav {
   text-align: center;
 }
@@ -413,6 +416,8 @@ footer {
   border-bottom: 1px solid #c6c6c6;
   border-radius: 0px;
   padding: 15px 10px;
+  font-weight: 700;
+  text-align: left !important;
 }
 
 .curriculum-sidebar.nav-pills .nav-link:last-child {
@@ -431,6 +436,18 @@ footer {
   height: 400px;
   overflow-y: scroll;
   width: 100%;
+}
+
+.curri-scroll ul li{
+  list-style: disc;
+  font-weight: 700;
+  color: #054DC8;
+}
+
+.curri-scroll ul li ul li{
+  list-style: circle;
+  font-weight: 400;
+  color: #000;
 }
 
 .bl-1 {
@@ -536,4 +553,8 @@ footer {
 .bg-testi{
   background-image: url('../images/bg-img-3.png');
   background-size: cover;
+}
+
+#price .card{
+  height: 550px;
 }
