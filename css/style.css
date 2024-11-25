@@ -32,7 +32,8 @@ a {
   text-decoration: none;
   color: #000;
 }
-li{
+
+li {
   list-style: none;
 }
 
@@ -249,10 +250,12 @@ li{
   padding-top: 80px;
 
 }
+
 .mentors .owl-carousel .owl-stage-outer {
   padding-top: 0px;
 
 }
+
 .owl-carousel .owl-nav {
   text-align: center;
 }
@@ -438,13 +441,13 @@ footer {
   width: 100%;
 }
 
-.curri-scroll ul li{
+.curri-scroll ul li {
   list-style: disc;
   font-weight: 700;
   color: #054DC8;
 }
 
-.curri-scroll ul li ul li{
+.curri-scroll ul li ul li {
   list-style: circle;
   font-weight: 400;
   color: #000;
@@ -462,7 +465,7 @@ footer {
   background: rgba(239, 239, 239, 1);
 }
 
-.bg-grad{
+.bg-grad {
   background-image: linear-gradient(90deg, #022d77, #054DC8);
   padding: 5px 20px;
   color: #fff;
@@ -476,21 +479,30 @@ footer {
 .w-60 {
   width: 60%;
 }
-.pdp-testi .owl-stage-outer{
+
+.pdp-testi .owl-stage-outer {
   margin-top: -50px;
 }
+
 .pdp-testi-card {
   background: linear-gradient(180deg, rgba(29, 161, 229, 0.1) 0%, rgba(255, 103, 0, 0.1) 100%);
   border-radius: 20px;
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
   border-color: transparent !important;
 }
-.course-faq button{
+
+.course-faq button {
   background-color: transparent !important;
   border-bottom: transparent !important;
   text-align: left;
 }
+
 .course-faq .card-body {
   border-left: 2px solid #FF6700;
   opacity: 0.7;
@@ -499,7 +511,8 @@ footer {
   font-size: 15px;
   padding: 10px 10px;
 }
-.mentor-card{
+
+.mentor-card {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -515,15 +528,16 @@ footer {
 }
 
 /* login */
-.bg-darkblue{
+.bg-darkblue {
   background-color: #1E455A;
 }
 
-.bg-trans{
+.bg-trans {
   position: relative;
   background-color: #fff;
   z-index: 1;
 }
+
 .bg-trans::after {
   content: " ";
   position: absolute;
@@ -531,30 +545,74 @@ footer {
   width: 100%;
   height: 100%;
   z-index: -1;
-  top:0;
-  left:-120px;
+  top: 0;
+  left: -120px;
   background-color: #fff;
   -ms-transform: skew(-30deg, 0deg);
   -webkit-transform: skew(-30deg, 0deg);
   transform: skew(-20deg, 0deg);
 }
 
-.fixed-icon{
+.fixed-icon {
   position: fixed;
   z-index: 2;
   bottom: 50px;
   right: 50px;
 }
 
-.mentors .card{
+.mentors .card {
   height: 300px;
 }
 
-.bg-testi{
+.bg-testi {
   background-image: url('../images/bg-img-3.png');
   background-size: cover;
 }
 
-#price .card{
+#price .card {
   height: 550px;
+}
+
+@media screen and (max-width: 550px) {
+  .splide {
+    .splide__slide {
+      width: calc(100% + 0px) !important;
+    }
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .px-5 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  .mt-5, .mt-4{
+    margin-top: 1rem !important;
+  }
+  .fs-5{
+    font-size: 15px !important;
+  }
+  .splide {
+    margin-top: 20px;
+  }
+  .pt-5{
+    padding-top: 20px !important;
+  }
+  .owl-carousel .owl-stage-outer {
+    padding-top: 60px;
+}
+.course-content {
+  margin-top: -10px;
+}
+.mentor-card {
+  width: 120px;
+  height: 120px;
+}
 }
