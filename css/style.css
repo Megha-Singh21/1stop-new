@@ -580,7 +580,7 @@ footer {
     }
   }
 
-  .d-none {
+  .m-none {
     display: none;
   }
 
@@ -593,26 +593,34 @@ footer {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
-  .mt-5, .mt-4{
+
+  .mt-5,
+  .mt-4 {
     margin-top: 1rem !important;
   }
-  .fs-5{
+
+  .fs-5 {
     font-size: 15px !important;
   }
+
   .splide {
     margin-top: 20px;
   }
-  .pt-5{
+
+  .pt-5 {
     padding-top: 20px !important;
   }
+
   .owl-carousel .owl-stage-outer {
     padding-top: 60px;
-}
-.course-content {
-  margin-top: -10px;
-}
-.mentor-card {
-  width: 120px;
-  height: 120px;
-}
+  }
+
+  .course-content {
+    margin-top: -10px;
+  }
+
+  .mentor-card {
+    width: 120px;
+    height: 120px;
+  }
 }
