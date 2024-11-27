@@ -626,4 +626,31 @@ footer {
     width: 120px;
     height: 120px;
   }
+
+  .section-2 h1{
+    font-size: 20px;
+  }
+
+  .section-2 h6{
+    font-size: 15px;
+  }
+
+  .section-2 .row .col-md-3 .align-items-center{
+    align-items: start !important;
+  }
+
+  .section-3 img{
+    width: 100px;
+  }
+
+  .section-3 marquee .mt-2{
+    margin-top: -30px !important;
+  }
+
+  .mentors h5{
+    font-size: 15px !important;
+  }
+  .mentors .card {
+    height: 375px;
+}
 }
