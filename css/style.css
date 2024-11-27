@@ -599,9 +599,10 @@ footer {
     margin-top: 1rem !important;
   }
 
-  .mt-6{
+  .mt-6 {
     margin-top: 60px !important;
   }
+
   .fs-5 {
     font-size: 15px !important;
   }
@@ -627,30 +628,47 @@ footer {
     height: 120px;
   }
 
-  .section-2 h1{
+  .section-2 h1 {
     font-size: 20px;
   }
 
-  .section-2 h6{
+  .section-2 h6 {
     font-size: 15px;
   }
 
-  .section-2 .row .col-md-3 .align-items-center{
+  .section-2 .row .col-md-3 .align-items-center {
     align-items: start !important;
   }
 
-  .section-3 img{
+  .section-3 img {
     width: 100px;
   }
 
-  .section-3 marquee .mt-2{
+  .section-3 marquee .mt-2 {
     margin-top: -30px !important;
   }
 
-  .mentors h5{
+  .mentors h5 {
     font-size: 15px !important;
   }
+
   .mentors .card {
     height: 375px;
-}
+  }
+
+  .curriculum .accordion-body .d-flex {
+    display: block !important;
+  }
+
+  .curriculum-sidebar{
+    width: auto;
+  }
+
+  .curriculum-sidebar button span i{
+    display: none;
+  }
+
+  .pdp-section-6 .row img{
+    width: 150px !important;
+  }
 }
