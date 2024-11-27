@@ -573,6 +573,18 @@ footer {
   height: 550px;
 }
 
+.about-section1{
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.about-section2{
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
 @media screen and (max-width: 550px) {
   .splide {
     .splide__slide {
@@ -600,7 +612,7 @@ footer {
   }
 
   .mt-6 {
-    margin-top: 60px !important;
+    margin-top: 70px !important;
   }
 
   .fs-5 {
