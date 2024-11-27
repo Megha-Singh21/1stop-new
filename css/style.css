@@ -584,6 +584,9 @@ footer {
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
 }
+.card-about-height{
+  height: 240px;
+}
 
 @media screen and (max-width: 550px) {
   .splide {
