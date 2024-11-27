@@ -581,7 +581,7 @@ footer {
   }
 
   .m-none {
-    display: none;
+    display: none !important;
   }
 
   .py-5 {
@@ -599,6 +599,9 @@ footer {
     margin-top: 1rem !important;
   }
 
+  .mt-6{
+    margin-top: 60px !important;
+  }
   .fs-5 {
     font-size: 15px !important;
   }
