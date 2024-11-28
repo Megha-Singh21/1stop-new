@@ -690,4 +690,23 @@ footer {
   .pdp-section-6 .row img{
     width: 150px !important;
   }
+
+  .card-key {
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px !important;
+}
+
+.card-key .d-flex{
+  display: block !important;
+  text-align: center;
+  
+}
+.card-key img{
+  width: 40px;
+}
+
+.card-key h5{
+  font-size: 16px;
+}
 }
