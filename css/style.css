@@ -672,7 +672,7 @@ footer {
   }
 
   .mentors .card {
-    height: 375px;
+    height: fit-content;
   }
 
   .curriculum .accordion-body .d-flex {
@@ -708,5 +708,9 @@ footer {
 
 .card-key h5{
   font-size: 16px;
+}
+
+#price .card {
+  height: fit-content;
 }
 }
