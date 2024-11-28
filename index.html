@@ -513,16 +513,17 @@
             <div class="col-md-4 mt-3">
                 <div class="card course-card">
                     <div class="p-4 " id="gridFilter">
-                        <div class="d-flex align-items-start mb-1 filter active" onclick="filterSelection('ds')">
-                            <img src="images/DataScienceIcon.png" width="40px" alt="">
-                            <h6 class="ms-2 course-cat">Data science & Analytics</h6>
-                            <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
-                        </div>
-                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('sd')">
+                        <div class="d-flex align-items-start mb-1 filter active" onclick="filterSelection('sd')">
                             <img src="images/SoftwareDevelopmentIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Software Development</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('ds')">
+                            <img src="images/DataScienceIcon.png" width="40px" alt="">
+                            <h6 class="ms-2 course-cat">Data science & Analytics</h6>
+                            <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
+                        </div>
+                        
                         <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('cp')">
                             <img src="images/CoreProgramsIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Core Programs</h6>
@@ -2443,7 +2444,7 @@
     </script>
 
     <script>
-        filterSelection("ds")
+        filterSelection("sd")
 
         function filterSelection(c) {
             var x, i;
