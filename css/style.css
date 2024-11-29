@@ -774,4 +774,7 @@ footer {
 #price .card {
   height: fit-content;
 }
+.btn-job{
+  justify-content: center !important;
+}
 }
