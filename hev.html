@@ -101,7 +101,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav align-items-center">
                     <a class="nav-link"  href="about.html">About</a>
                     <a class="nav-link d-none" href="#">Ambassador</a>
                     <a class="nav-link d-none" href="#">Blogs</a>
@@ -296,6 +296,14 @@
                                 <button class="nav-link d-flex justify-content-between" id="v-pills-102-tab"
                                     data-bs-toggle="pill" data-bs-target="#v-pills-102" type="button" role="tab"
                                     aria-controls="v-pills-102" aria-selected="false">ANSYS WORK BENCH <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                        <button class="nav-link d-flex justify-content-between" id="v-pills-103-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-103" type="button" role="tab"
+                                    aria-controls="v-pills-103" aria-selected="false">Brakes <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                        <button class="nav-link d-flex justify-content-between" id="v-pills-104-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-104" type="button" role="tab"
+                                    aria-controls="v-pills-104" aria-selected="false">MATLAB <span
                                         class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
 
                             </div>
@@ -561,6 +569,84 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade" id="v-pills-103" role="tabpanel"
+                                    aria-labelledby="v-pills-103-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction
+                                                <ul>
+                                                    <li>Energy Conversion: Brakes slow down the vehicle by converting kinetic energy into heat through friction, either in disc or drum systems.</li>
+                                                    <li>Safety and Control: Effective braking systems are essential for vehicle safety, providing precise control during deceleration and stopping.</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>Types
+                                                <ul>
+                                                    <li>Drum Brakes</li>
+                                                    <li>Disc Brakes</li>
+                                                    <li>Electronic Brakes</li>
+                                                </ul>
+                                            </li>
+                                            <li>Drum Brakes
+                                                <ul>
+                                                    <li>Overview: Drum brakes use brake shoes pressing against a rotating drum to create friction, effectively slowing or stopping the vehicle.</li>
+                                                    <li>Types: Mechanical Brakes, Hydrolic Brakes, Pneumatic Assisted Brakes</li>
+                                                    <li>Components: Braking Plate, Brake Drum, Wheel Cylinder, Brake Shoe, Automatic Adjuster, Return Springs</li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li>Disc Brakes
+                                                <ul>
+                                                    <li>Overview: The fluid from the master cylinder is forced into a caliper where it presses against a piston</li>
+                                                    <li>The piston inturn squeezes two brake pads against the disc (rotor), which is attached to wheel, forcing it to slow down or stop</li>
+                                                    <li>Types: Ventilated Disc Brakes, Slotted Disc Brakes</li>
+                                                    <li>Drilled Disc Brakes, Solid (Non-Ventilated) Disc Brakes</li>
+                                                    <li>Carbon-Carbon Disc Brakes, Composite Disc Brakes</li>
+                                                    <li>Components: Caliper, Piston, Brake Pads, Rotor, Mounting Bracket, Hub Stator, Pistons, Threaded Studs, Hydraulic Lines and Fluid</li>
+                                                </ul>
+                                            </li>
+                                            <li>Actuating systems
+                                                <ul>
+                                                    <li>Mechanical Actuating Systems: Utilize physical linkages, such as cables or rods, to transfer force from the brake pedal to the brake components, providing simple and direct control.</li>
+                                                    <li>Hydraulic Actuating Systems: Use brake fluid to transmit force from the brake pedal to the calipers, offering smooth and effective braking with the advantage of increased force multiplication.</li>
+                                                    <li>Pneumatic Actuating Systems: Employ compressed air to actuate brakes, commonly used in larger vehicles like trucks and buses for reliable performance in heavy-duty applications.</li>
+                                                    <li>Electronic Actuating Systems: Integrate sensors and electronic controls to optimize braking performance, often seen in advanced systems like anti-lock brakes (ABS) and brake-by-wire technologies.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-104" role="tabpanel"
+                                    aria-labelledby="v-pills-104-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction
+                                                <ul>
+                                                    <li>MATLAB is a high-level programming language and interactive environment used for numerical computation, data analysis, and algorithm development across various engineering and scientific fields.</li>
+                                                    <li>It offers extensive toolboxes for specialized applications, including control systems, signal processing, and machine learning, facilitating complex mathematical modeling and simulation tasks.</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>MALAB Script
+                                                <ul>
+                                                    <li>Script Basics: MATLAB scripts are plain text files containing a sequence of MATLAB commands that can be executed as a single program, streamlining repetitive tasks.</li>
+                                                    <li>Variable Management: Scripts allow for the creation and manipulation of variables, enabling users to store and process data efficiently within a single execution environment.</li>
+                                                    <li>Function Integration: Users can define and call custom functions within scripts, enhancing code reusability and organization for complex projects.</li>
+                                                    <li>Interactive Development: Scripts can be tested and modified in real-time, allowing for immediate feedback and iterative development during the programming process.</li>
+                                                </ul>
+                                            </li>
+                                            <li>Motor Power calculation using MATLAB
+                                                <ul>
+                                                    <li>Input Parameter: Motor power calculation in MATLAB requires input parameters such as voltage, current, efficiency, and speed to determine the motor's performance.</li>
+                                                    <li>Power Equations: The calculation typically involves using formulas like P=V×I×η for electrical power, where P is power, V is voltage, I is current, and η is efficiency.</li>
+                                                    <li>Data Visualization: MATLAB can plot the results of motor power calculations, providing visual insights into performance trends and efficiency across different operating conditions.</li>
+                                                    <li>Simulation Capabilities: Advanced simulations can be performed using MATLAB’s toolboxes, allowing users to analyze motor behavior under various loads and speeds for more accurate predictions.</li>
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -606,7 +692,7 @@
                             </div>
                             <div class="col-md-4 px-2">
                                 <div class="card px-2 py-3">
-                                    <h4 class="btn-style2">Matlab Script Development For EV Motor Efficiency Plots</h4>
+                                    <h4 class="btn-style2">MATLAB Script Development For EV Motor Efficiency Plots</h4>
                                     <p>Define key motor characteristics such as rated power, torque, speed, voltage, and
                                         current, which are essential for calculating efficiency under different
                                         conditions.</p>
@@ -1359,7 +1445,7 @@
                                                     Program Duration : 4 months
                                                 </span>
                                             </li>
-                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 40+
+                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 35
                                                 Hours
                                                 of
                                                 Content
@@ -1442,7 +1528,7 @@
                                                     Program Duration : 2 months
                                                 </span>
                                             </li>
-                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 30+
+                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 30
                                                 Hours
                                                 of
                                                 Content
@@ -2219,10 +2305,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="text-light">1Stop Private Limited © 2024. All Rights Reserved.</p>
-                    <p class="text-light">100% safe and secure payment with Instamojo</p>
+                    <p class="text-light">100% safe and secure payment with <img src="images/instamojo-logo.png"
+                            width="100px" alt=""> & <img src="images/razorpay.png" width="100px" alt=""></p>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex justify-content-end align-items-center">
                         <div class="social-icon m-1">
                             <a href="https://www.instagram.com/1stop.ai/" target="_blank">
                                 <img src="images/icons_instagram.png" width="30px" alt="">

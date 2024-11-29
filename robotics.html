@@ -91,7 +91,7 @@
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <li><a class="dropdown-item" href="job-java.html">Java Developer</a>
-                            
+
                         </li>
                     </ul>
                 </div>
@@ -101,8 +101,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link"  href="about.html">About</a>
+                <div class="navbar-nav align-items-center">
+                    <a class="nav-link" href="about.html">About</a>
                     <a class="nav-link d-none" href="#">Ambassador</a>
                     <a class="nav-link d-none" href="#">Blogs</a>
                     <a class="nav-link" href="signup.html">Contact Us</a>
@@ -294,6 +294,14 @@
                                 <button class="nav-link d-flex justify-content-between" id="v-pills-102-tab"
                                     data-bs-toggle="pill" data-bs-target="#v-pills-102" type="button" role="tab"
                                     aria-controls="v-pills-102" aria-selected="false">Robot Kinematics <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-103-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-103" type="button" role="tab"
+                                    aria-controls="v-pills-103" aria-selected="false">RoboAnalyzer <span class="ms-5"><i
+                                            class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-104-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-104" type="button" role="tab"
+                                    aria-controls="v-pills-104" aria-selected="false">Robot Programming <span
                                         class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
 
                             </div>
@@ -623,6 +631,144 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade" id="v-pills-103" role="tabpanel"
+                                    aria-labelledby="v-pills-103-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction
+                                                <ul>
+                                                    <li>Overview: RoboAnalyzer is a software tool used for analyzing,
+                                                        simulating, and visualizing the kinematics and dynamics of
+                                                        robotic systems.</li>
+                                                    <li>Kinematic analysis: It allows users to perform both forward and
+                                                        inverse kinematics calculations, helping to determine robot
+                                                        motion and configurations.</li>
+                                                    <li>3D visualization: RoboAnalyzer provides a 3D graphical interface
+                                                        to simulate and visualize robotic arm movements, improving
+                                                        design and testing processes.</li>
+                                                    <li>Educational tool: Widely used in academia and industry, it helps
+                                                        students and professionals understand complex robotic concepts
+                                                        through interactive simulations.</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>Virtual Models of Industrial Robots
+                                                <ul>
+                                                    <li>Overview: Virtual models of industrial robots are digital
+                                                        representations used to simulate, analyze, and optimize robotic
+                                                        systems in a virtual environment before physical implementation.
+                                                    </li>
+                                                    <li>Simulation and Testing: These models enable the testing of
+                                                        robotic movements, control algorithms, and interactions with
+                                                        objects, helping to predict real-world performance and reduce
+                                                        errors.</li>
+                                                    <li>Cost and Time Efficiency: Virtual modeling reduces the need for
+                                                        physical prototypes, saving time and costs associated with trial
+                                                        and error in real-world testing.​</li>
+                                                    <li>Optimization: They assist in optimizing robot movements, paths,
+                                                        and task execution for maximum performance and minimal
+                                                        downtime.​</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>Kinematic Analysis of Industrial Robots
+                                                <ul>
+                                                    <li>Define Robot Configuration: Identify the robot's joints, link
+                                                        lengths, and types (e.g., revolute or prismatic joints) to
+                                                        establish the robot's structure.</li>
+                                                    <li>Establish Coordinate Frames: Assign coordinate frames to each
+                                                        joint and link using the Denavit-Hartenberg (DH) convention to
+                                                        describe the robot's geometry.</li>
+                                                    <li>Write Transformation Matrices: Calculate the transformation
+                                                        matrices between adjacent links, representing the rotation and
+                                                        translation at each joint.</li>
+                                                    <li>Forward Kinematics: Determine the position and orientation of
+                                                        the end-effector (tool) based on given joint variables (angles
+                                                        or displacements).</li>
+                                                    <li>Inverse Kinematics: Calculate the joint variables needed to
+                                                        achieve a specific end-effector position and orientation.</li>
+                                                    <li>Velocity and Acceleration Analysis: Analyze the robot’s velocity
+                                                        and acceleration, using Jacobian matrices to relate joint
+                                                        velocities to end-effector velocities.</li>
+                                                    <li>Check Constraints: Ensure the robot’s movements are feasible and
+                                                        meet constraints like joint limits, workspace boundaries, and
+                                                        singularities.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-104" role="tabpanel"
+                                    aria-labelledby="v-pills-104-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>CPRog Robot Control Software
+                                                <ul>
+                                                    <li>Overview: CPRog is a graphical control and programming
+                                                        environment used for industrial robots, specifically those in
+                                                        the Commonplace Robotics lineup</li>
+                                                    <li>It includes tools for simulation, programming, and robot
+                                                        interaction.</li>
+                                                    <li>CPRog is closely related to igus Robot Control (iRC) but
+                                                        designed for different sets of robots.</li>
+                                                    <li>Key Features: User-Friendly Interface: User-Friendly Interface:
+                                                        Graphical interface for easy robot programming, with
+                                                        drag-and-drop features for movement contro</li>
+                                                    <li>Offline Programming & Simulation: Allows testing of programs in
+                                                        a virtual environment to avoid errors on physical robots​</li>
+                                                    <li>Motion Control: Supports complex robotic motions, path planning,
+                                                        and task sequencing for automation</li>
+                                                    <li>Logic Programming: Integrates logic sequences for controlling
+                                                        outputs (e.g., gripper activation, dispensing actions) based on
+                                                        robot positions</li>
+                                                    <li>Error Handling: Provides debugging tools for monitoring,
+                                                        troubleshooting, and identifying movement or logic issues</li>
+                                                    <li>Customization: Enables integration of sensors or external
+                                                        components for specific automation needs</li>
+                                                    <li>External Communication: Connects robots with sensors or
+                                                        controllers for more complex tasks​</li>
+                                                    <li>Applications: Assembly Line Automation: Ideal for repetitive
+                                                        tasks like assembly and sorting.</li>
+                                                    <li>Pick-and-Place: Ensures precise material handling and object
+                                                        placement​</li>
+                                                    <li>Quality Control: Used in visual inspection and automated checks
+                                                        in manufacturing​</li>
+                                                </ul>
+                                            </li>
+                                            <li>Robot Simulation using CPRog
+                                                <ul>
+                                                    <li>Overview: Robot Simulation using CPRog involves creating and
+                                                        testing robotic tasks in a virtual environment before executing
+                                                        them on actual hardware.</li>
+                                                    <li>This process is critical for ensuring efficiency, safety, and
+                                                        error-free operation in real-world scenarios.</li>
+                                                    <li>Key Features of Simulation in CPRog: Virtual Testing: Users can
+                                                        simulate robot movements and tasks to verify their functionality
+                                                        and avoid errors before deployment on physical robots​</li>
+                                                    <li>Real-time Feedback: Simulation provides immediate feedback on
+                                                        the robot’s actions, such as path deviations, potential
+                                                        collisions, or violations of safety constraints​</li>
+                                                    <li>Task Visualization: The 3D environment allows users to visualize
+                                                        robot movements, tool actions, and end-effector positions to
+                                                        confirm task accuracy​</li>
+                                                    <li>Safety Checks: Virtual simulations help in identifying motion
+                                                        limits, potential programming errors, and optimizing task
+                                                        workflows without any physical risks​</li>
+                                                    <li>Benefits of Simulation: Cost-Effective: Saves costs related to
+                                                        robot downtime, trial-and-error programming, and material waste​
+                                                    </li>
+                                                    <li>Optimized Performance: Enables fine-tuning of robot motions and
+                                                        behavior to achieve the best possible performance before actual
+                                                        deployment​</li>
+                                                    <li>Improved Programming Efficiency: With the ability to simulate
+                                                        complex processes, programmers can optimize code, minimize
+                                                        debugging time, and refine logic before physical execution​</li>
+
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -665,8 +811,8 @@
                             </div>
                             <div class="col-md-4 px-2">
                                 <div class="card px-2 py-3">
-                                    <h4 class="btn-style2">KINEMATICS ANALYSIS OF A 6-DOF INDUSTRIAL ROBOT USING
-                                        ROBOANALYZER</h4>
+                                    <h4 class="btn-style2">Kinematics Analysis of a 6-DOF Industrial Robot Using
+                                        RoboAnalyzer</h4>
                                     <p>The first step is to define the robot model within RoboAnalyzer. For a 6-DOF
                                         robot, you'll input the DH (Denavit-Hartenberg) parameters for the robot's
                                         joints and links.</p>
@@ -1349,7 +1495,7 @@
                 <img src="images/Space-College.png" alt="">
             </div>
             <div class="col-md-1 m-none"></div>
-        
+
             <div class="col-md-1 m-none"></div>
             <div class="col-md-2 col-6 py-2">
                 <img src="images/Aditya-College.png" alt="">
@@ -1417,7 +1563,7 @@
                                                     Program Duration : 4 months
                                                 </span>
                                             </li>
-                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 40+
+                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 35
                                                 Hours
                                                 of
                                                 Content
@@ -1500,7 +1646,7 @@
                                                     Program Duration : 2 months
                                                 </span>
                                             </li>
-                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 30+
+                                            <li><i class="fa fa-download me-1 text-orange" aria-hidden="true"></i> 30
                                                 Hours
                                                 of
                                                 Content
@@ -1700,7 +1846,7 @@
         </div>
     </div>
 
-    
+
 
     <div class="container pb-5">
         <h2 class="text-blue fw-bold text-center">FAQs</h2>
@@ -2064,7 +2210,7 @@
     </div>
 
     <!-- footer -->
-   <div class="container pb-5">
+    <div class="container pb-5">
         <h2 class="text-center fw-bold text-blue">If you haven’t heard, 1Stop is making major headlines!</h2>
         <div class="text-center">
             <img src="images/Rectangle-73.png" alt="">
@@ -2242,7 +2388,7 @@
                             href="index.html" class="text-light">Home</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
                             href="about.html" class="text-light">About</a></li>
-                    
+
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
                             href="https://1stop.ai/verify-certificate" target="_blank" class="text-light">Verify
                             Certificate</a></li>
@@ -2250,12 +2396,10 @@
                 <div class="col-md-3 doc">
                     <h4 class="mb-3">Documents</h4>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1Stop_Terms-of-Use.pdf" target="_blank"
-                            class="text-light">Terms of
+                            href="images/1Stop_Terms-of-Use.pdf" target="_blank" class="text-light">Terms of
                             use</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1stopai-PRIVACY-POLICY.pdf" target="_blank"
-                            class="text-light">Privacy
+                            href="images/1stopai-PRIVACY-POLICY.pdf" target="_blank" class="text-light">Privacy
                             Policy</a>
                     </li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
@@ -2277,10 +2421,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="text-light">1Stop Private Limited © 2024. All Rights Reserved.</p>
-                    <p class="text-light">100% safe and secure payment with Instamojo</p>
+                    <p class="text-light">100% safe and secure payment with <img src="images/instamojo-logo.png"
+                            width="100px" alt=""> & <img src="images/razorpay.png" width="100px" alt=""></p>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex justify-content-end align-items-center">
                         <div class="social-icon m-1">
                             <a href="https://www.instagram.com/1stop.ai/" target="_blank">
                                 <img src="images/icons_instagram.png" width="30px" alt="">
