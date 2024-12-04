@@ -685,6 +685,10 @@ footer {
   font-size: 20px;
 }
 
+.fs-7{
+  font-size: 13px;
+}
+
 /* ============ nav dropdown desktop view ============ */
 @media all and (min-width: 992px) {
   .dropdown-menu li {
