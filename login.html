@@ -91,7 +91,7 @@
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <li><a class="dropdown-item" href="job-java.html">Java Developer</a>
-                            
+
                         </li>
                     </ul>
                 </div>
@@ -102,7 +102,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav align-items-center">
-                    <a class="nav-link"  href="about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                     <a class="nav-link" href="affiliate.html">Affiliate</a>
                     <a class="nav-link" href="blog.html">Blogs</a>
                     <a class="nav-link" href="signup.html">Contact Us</a>
@@ -135,27 +135,36 @@
                     <h4 class="text-center">Login using your registered Email ID</h4>
                     <div class="mt-5 pb-5">
                         <h5>Login</h5>
-                        <form>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1"><img src="images/Vector.png" alt=""></span>
-                                <input type="email" class="form-control" placeholder="Enter your registered email">
-                              </div>
-                              <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1"><img src="images/Vector-1.png" alt=""></span>
-                                <input type="password" class="form-control" placeholder="Enter your password">
-                              </div>
+                        <form class="needs-validation" novalidate>
+                            <div class="input-group mb-3 has-validation">
+                                <span class="input-group-text" id="basic-addon1"><img src="images/Vector.png"
+                                        alt=""></span>
+                                <input type="email" class="form-control" placeholder="Enter your registered email"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please provide valid Email ID.
+                                </div>
+                            </div>
+                            <div class="input-group mb-3 has-validation">
+                                <span class="input-group-text" id="basic-addon2"><img src="images/Vector-1.png"
+                                        alt=""></span>
+                                <input type="password" class="form-control" placeholder="Enter your password" required>
+                                <div class="invalid-feedback">
+                                    Please enter your password.
+                                </div>
+                            </div>
                             <div class="mb-3 form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                              <div class="float-end">
-                                <a href="forgot-pass.html">Forgot Password?</a>
-                              </div>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                <div class="float-end">
+                                    <a href="forgot-pass.html">Forgot Password?</a>
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                             <div class="mt-3">
                                 <a href="signup.html" class="text-primary">Create New?</a>
-                              </div>
-                          </form>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -181,7 +190,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <img src="https://1stop.ai/images/1Stop_logo_New_Png.png" class="img-fluid" alt="logo" width="150">
-                    <p class="text-light">1stop is a strong platform with immense potential for students from anywhere and anytime to
+                    <p class="text-light">1stop is a strong platform with immense potential for students from anywhere
+                        and anytime to
                         access cutting-edge Mentorship and Certification Program widespread with a larger number of
                         domains and niches to explore learning.</p>
                 </div>
@@ -191,7 +201,7 @@
                             href="index.html" class="text-light">Home</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
                             href="about.html" class="text-light">About</a></li>
-                    
+
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
                             href="https://1stop.ai/verify-certificate" target="_blank" class="text-light">Verify
                             Certificate</a></li>
@@ -199,12 +209,10 @@
                 <div class="col-md-3 doc">
                     <h4 class="mb-3">Documents</h4>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1Stop_Terms-of-Use.pdf" target="_blank"
-                            class="text-light">Terms of
+                            href="images/1Stop_Terms-of-Use.pdf" target="_blank" class="text-light">Terms of
                             use</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1stopai-PRIVACY-POLICY.pdf" target="_blank"
-                            class="text-light">Privacy
+                            href="images/1stopai-PRIVACY-POLICY.pdf" target="_blank" class="text-light">Privacy
                             Policy</a>
                     </li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
@@ -257,6 +265,29 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
 </body>
 
 </html>
