@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1Stop| Keep Growing</title>
+    <link rel="shortcut icon" href="../images/1Stop_logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Certificate */
+        
+
+        .certificate-section .card {
+            padding: 20px;
+            margin-bottom: 20px !important;
+            width: 50%;
+        }
+
+        .certificate-section h1 {
+            color: #1040AB;
+            text-align: center;
+        }
+
+        .certificate-section .card-header h2 {
+            color: #1040AB;
+        }
+
+        .certificate-section p {
+            text-align: left;
+        }
+
+        .certificate-section .error-content h1 {
+            color: #B90909;
+            padding-bottom: 0px;
+        }
+
+        .certificate-section table td {
+            padding-right: 20px;
+        }
+
+        @media screen and (max-width: 375px) {
+
+            .certificate-section .card {
+                width: 100%;
+            }
+
+            .certificate-section p {
+                width: 100%;
+            }
+
+            .certificate-section a img {
+                margin-bottom: 20px;
+            }
+
+            .certificate-section .error-content img {
+                width: 100%;
+            }
+
+            .certificate-section .error-content p {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 376px) and (max-width: 415px) {
+            .certificate-section .card {
+                width: 100%;
+            }
+
+            .certificate-section p {
+                width: 100%;
+            }
+
+            .certificate-section a img {
+                margin-bottom: 20px;
+            }
+
+            .certificate-section .error-content img {
+                width: 100%;
+            }
+
+            .certificate-section .error-content p {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/1Stop_logo_New.png" width="150px" alt="logo">
+            </a>
+            <div class="dropdown-style ms-3">
+                <div class="dropdown d-dropdown">
+                    <a class="btn btn-style2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Program
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#internship">Data science & Analytics &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../ai.html">Artificial Intelligence(Personify)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../ai-l.html">Artificial Intelligence(Languify)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../ml.html">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="../ds.html">Data Science</a></li>
+                                <li><a class="dropdown-item" href="../iot.html">Internet of Things</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#internship">Software Development &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../java.html">JAVA</a></li>
+                                <li><a class="dropdown-item" href="../wd-f.html">Web Development Front-End</a></li>
+                                <li><a class="dropdown-item" href="../wd-b.html">Web Development Back-End</a></li>
+                                <li><a class="dropdown-item" href="../ad.html">Android Development</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#internship">Core Programs &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../thermo.html">Thermodynamics with MATLAB</a></li>
+                                <li><a class="dropdown-item" href="../hev.html">Hybrid Electric Vehicle</a></li>
+                                <li><a class="dropdown-item" href="../autocad-civil.html">AutoCAD Civil</a></li>
+                                <li><a class="dropdown-item" href="../robotics.html">Robotics</a></li>
+                                <li><a class="dropdown-item" href="../autocad.html">AutoCAD/Catia/Ansys</a></li>
+                                <li><a class="dropdown-item" href="../vlsi.html">VLSI</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#internship">Cloud Engineer &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../cc.html">Cloud Computing</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#internship">Cyber Security Program &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../cs.html">Cyber Security_Ethical Hacking</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#internship">Business &raquo;</a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="../enterpre.html">Startup and Enterpreneurship</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown d-dropdown ms-3">
+                    <a class="btn btn-style2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Advance Program
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="../job-java.html">Java Developer</a>
+                        </li>
+                        <li><a class="dropdown-item" href="../sde.html">Software Engineer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav align-items-center">
+                    <a class="nav-link" href="../about.html">About</a>
+                    <a class="nav-link" href="../affiliate.html">Affiliate</a>
+                    <a class="nav-link" href="../blog.html">Blogs</a>
+                    <a class="nav-link" href="../signup.html">Contact Us</a>
+                    <a class="nav-link" href="../price.html">Pricing</a>
+                    <a class="btn-style2 text-light" href="../login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <section class="section2 certificate-section" style="margin: 150px 0px;">
+        <h1>Certificate Verified for</h1>
+        <div class="container">
+            <p>Dear Megha Singh </p>
+            <p> <strong>We sincerely appreciate your participation in the below listed programs.</strong></p>
+
+            <p>In recognition of your efforts, please find the attached certificates:
+            </p>
+            <br>
+            <div class="accordion" id="accordionExample">
+                <div class="">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-start collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Web Development
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="card-body text-left">
+                            <table>
+                                <tr>
+                                    <td><strong>Participation certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_participation_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Project Completetion certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_project_completion_10271.pdf"
+                                            target="_blank"><i class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Internship certificate</strong></td>
+                                    <td><a href="../image/Ankit_Jan_2022_internship_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Artificial Intelligence
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="card-body text-left">
+                            <table>
+                                <tr>
+                                    <td><strong>Participation certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_participation_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Project Completetion certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_project_completion_10271.pdf"
+                                            target="_blank"><i class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Internship certificate</strong></td>
+                                    <td><a href="../image/Ankit_Jan_2022_internship_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Data Science
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="card-body text-left">
+                            <table>
+                                <tr>
+                                    <td><strong>Participation certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_participation_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Project Completetion certificate</strong></td>
+                                    <td><a href="../image/Ankit_Nov_2021_project_completion_10271.pdf"
+                                            target="_blank"><i class="fas fa-download"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Internship certificate</strong></td>
+                                    <td><a href="../image/Ankit_Jan_2022_internship_10271.pdf" target="_blank"><i
+                                                class="fas fa-download"></i></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-viewprog" style="margin-top: 50px;">
+                <a href="index.html" class="btn btn-primary whybtn">Back</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- whatsapp icon -->
+    <div class="fixed-icon">
+        <a href="https://wa.me/+919980494887" data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp Us">
+            <img src="../images/whatsapp-icon.png" width="50px" alt="">
+        </a>
+    </div>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+    <footer>
+        <div class="container pb-3 pt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://1stop.ai/images/1Stop_logo_New_Png.png" class="img-fluid" alt="logo" width="150">
+                    <p class="text-light">1stop is a strong platform with immense potential for students from anywhere
+                        and anytime to
+                        access cutting-edge Mentorship and Certification Program widespread with a larger number of
+                        domains and niches to explore learning.</p>
+                </div>
+                <div class="col-md-2 pages">
+                    <h4 class="mb-3">Pages</h4>
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="../index.html" class="text-light">Home</a></li>
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="../about.html" class="text-light">About</a></li>
+
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="https://1stop.ai/verify-certificate" target="_blank" class="text-light">Verify
+                            Certificate</a></li>
+                </div>
+                <div class="col-md-3 doc">
+                    <h4 class="mb-3">Documents</h4>
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="../images/1Stop_Terms-of-Use.pdf" target="_blank" class="text-light">Terms of
+                            use</a></li>
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="../images/1stopai-PRIVACY-POLICY.pdf" target="_blank" class="text-light">Privacy
+                            Policy</a>
+                    </li>
+                    <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
+                            href="../images/1Stop-Refund-Policy.pdf" target="_blank" class="text-light">Refund
+                            Policy</a>
+                    </li>
+                </div>
+                <div class="col-md-3 address">
+                    <h4>Contact Us</h4>
+                    <div class="mt-3"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.9597736972064!2d77.635035!3d12.910307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU0JzM3LjEiTiA3N8KwMzgnMDYuMSJF!5e0!3m2!1sen!2sin!4v1729162497898!5m2!1sen!2sin"
+                            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <p class="text-light">1018-993, #1018, 2nd floor, 20th Cross Rd, Sector 7, HSR Layout, Bengaluru,
+                        Karnataka 560102</p>
+                    <p><a href="tel:+916366213571" class="text-light">+916366213571</a> | <a
+                            href="mailto:support@1stop.ai" class="text-light">support@1stop.ai</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-light">1Stop Private Limited © 2024. All Rights Reserved.</p>
+                    <p class="text-light">100% safe and secure payment with <img src="../images/instamojo-logo.png"
+                            width="100px" alt=""> & <img src="../images/razorpay.png" width="100px" alt=""></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="social-icon m-1">
+                            <a href="https://www.instagram.com/1stop.ai/" target="_blank">
+                                <img src="../images/icons_instagram.png" width="30px" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon m-1">
+                            <a href="https://www.linkedin.com/company/1stop-ai/?viewAsMember=true" target="_blank">
+                                <img src="../images/icons_linkedin.png" width="30px" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon m-1">
+                            <a href="https://www.facebook.com/1Stopai-102490171820303" target="_blank">
+                                <img src="../images/logos_facebook.png" width="30px" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootsrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

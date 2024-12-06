@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1Stop| Keep Growing</title>
-    <link rel="shortcut icon" href="images/1Stop_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/1Stop_logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,7 +13,7 @@
         rel="stylesheet">
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,14 +22,94 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Certificate */
+        .certificate-section .container {
+            text-align: -webkit-center;
+        }
+
+        .certificate-section .card {
+            padding: 20px;
+            margin-bottom: 20px !important;
+            width: 50%;
+        }
+
+        .certificate-section h1 {
+            color: #1040AB;
+            text-align: center;
+        }
+
+        .certificate-section .card-header h2 {
+            color: #1040AB;
+        }
+
+        .certificate-section p {
+            text-align: left;
+        }
+
+        .certificate-section .error-content h1 {
+            color: #B90909;
+            padding-bottom: 0px;
+        }
+
+        .certificate-section table td {
+            padding-right: 20px;
+        }
+
+        @media screen and (max-width: 375px) {
+
+            .certificate-section .card {
+                width: 100%;
+            }
+
+            .certificate-section p {
+                width: 100%;
+            }
+
+            .certificate-section a img {
+                margin-bottom: 20px;
+            }
+
+            .certificate-section .error-content img {
+                width: 100%;
+            }
+
+            .certificate-section .error-content p {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 376px) and (max-width: 415px) {
+            .certificate-section .card {
+                width: 100%;
+            }
+
+            .certificate-section p {
+                width: 100%;
+            }
+
+            .certificate-section a img {
+                margin-bottom: 20px;
+            }
+
+            .certificate-section .error-content img {
+                width: 100%;
+            }
+
+            .certificate-section .error-content p {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <!-- nav start -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/1Stop_logo_New.png" width="150px" alt="logo">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/1Stop_logo_New.png" width="150px" alt="logo">
             </a>
             <div class="dropdown-style ms-3">
                 <div class="dropdown d-dropdown">
@@ -41,44 +121,47 @@
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <li><a class="dropdown-item" href="#internship">Data science & Analytics &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="ai.html">Artificial Intelligence(Personify)</a></li>
-                                <li><a class="dropdown-item" href="ai-l.html">Artificial Intelligence(Languify)</a></li>
-                                <li><a class="dropdown-item" href="ml.html">Machine Learning</a></li>
-                                <li><a class="dropdown-item" href="ds.html">Data Science</a></li>
-                                <li><a class="dropdown-item" href="iot.html">Internet of Things</a></li>
+                                <li><a class="dropdown-item" href="../ai.html">Artificial Intelligence(Personify)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../ai-l.html">Artificial Intelligence(Languify)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../ml.html">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="../ds.html">Data Science</a></li>
+                                <li><a class="dropdown-item" href="../iot.html">Internet of Things</a></li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#internship">Software Development &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="java.html">JAVA</a></li>
-                                <li><a class="dropdown-item" href="wd-f.html">Web Development Front-End</a></li>
-                                <li><a class="dropdown-item" href="wd-b.html">Web Development Back-End</a></li>
-                                <li><a class="dropdown-item" href="ad.html">Android Development</a></li>
+                                <li><a class="dropdown-item" href="../java.html">JAVA</a></li>
+                                <li><a class="dropdown-item" href="../wd-f.html">Web Development Front-End</a></li>
+                                <li><a class="dropdown-item" href="../wd-b.html">Web Development Back-End</a></li>
+                                <li><a class="dropdown-item" href="../ad.html">Android Development</a></li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#internship">Core Programs &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="thermo.html">Thermodynamics with MATLAB</a></li>
-                                <li><a class="dropdown-item" href="hev.html">Hybrid Electric Vehicle</a></li>
-                                <li><a class="dropdown-item" href="autocad-civil.html">AutoCAD Civil</a></li>
-                                <li><a class="dropdown-item" href="robotics.html">Robotics</a></li>
-                                <li><a class="dropdown-item" href="autocad.html">AutoCAD/Catia/Ansys</a></li>
-                                <li><a class="dropdown-item" href="vlsi.html">VLSI</a></li>
+                                <li><a class="dropdown-item" href="../thermo.html">Thermodynamics with MATLAB</a></li>
+                                <li><a class="dropdown-item" href="../hev.html">Hybrid Electric Vehicle</a></li>
+                                <li><a class="dropdown-item" href="../autocad-civil.html">AutoCAD Civil</a></li>
+                                <li><a class="dropdown-item" href="../robotics.html">Robotics</a></li>
+                                <li><a class="dropdown-item" href="../autocad.html">AutoCAD/Catia/Ansys</a></li>
+                                <li><a class="dropdown-item" href="../vlsi.html">VLSI</a></li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#internship">Cloud Engineer &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="cc.html">Cloud Computing</a></li>
+                                <li><a class="dropdown-item" href="../cc.html">Cloud Computing</a></li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#internship">Cyber Security Program &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="cs.html">Cyber Security_Ethical Hacking</a></li>
+                                <li><a class="dropdown-item" href="../cs.html">Cyber Security_Ethical Hacking</a></li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#internship">Business &raquo;</a>
                             <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="enterpre.html">Startup and Enterpreneurship</a></li>
+                                <li><a class="dropdown-item" href="../enterpre.html">Startup and Enterpreneurship</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -90,10 +173,9 @@
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="job-java.html">Java Developer</a>
-                            
+                        <li><a class="dropdown-item" href="../job-java.html">Java Developer</a>
                         </li>
-                        <li><a class="dropdown-item" href="sde.html">Software Engineer</a>
+                        <li><a class="dropdown-item" href="../sde.html">Software Engineer</a>
                         </li>
                     </ul>
                 </div>
@@ -104,79 +186,45 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav align-items-center">
-                    <a class="nav-link" href="about.html">About</a>
-                    <a class="nav-link" href="affiliate.html">Affiliate</a>
-                    <a class="nav-link" href="blog.html">Blogs</a>
-                    <a class="nav-link" href="signup.html">Contact Us</a>
-                    <a class="nav-link" href="price.html">Pricing</a>
-                    <a class="btn-style2 text-light" href="login.html">Login</a>
+                    <a class="nav-link" href="../about.html">About</a>
+                    <a class="nav-link" href="../affiliate.html">Affiliate</a>
+                    <a class="nav-link" href="../blog.html">Blogs</a>
+                    <a class="nav-link" href="../signup.html">Contact Us</a>
+                    <a class="nav-link" href="../price.html">Pricing</a>
+                    <a class="btn-style2 text-light" href="../login.html">Login</a>
                 </div>
             </div>
         </div>
     </nav>
     <!-- nav end -->
 
-    <div class="bg-darkblue mt-6">
-        <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
-                <div class="p-5 mt-5">
-                    <div class="">
-                        <div class="d-flex">
-                            <div>
-                                <img src="images/Line-19.png" alt="">
+
+    <section class="section2 certificate-section" style="margin: 150px 0px;">
+        <h1>Verify Certificate</h1>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <form action="verified.html">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" required>
                             </div>
-                            <div>
-                                <h1 class="text-light">Start your <br> career with <br> 1Stop</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6  mt-5 pt-5">
-                <div class="bg-trans p-5">
-                    <h4 class="text-center">Login using your registered Email ID</h4>
-                    <div class="mt-5 pb-5">
-                        <h5>Login</h5>
-                        <form class="needs-validation" novalidate>
-                            <div class="input-group mb-3 has-validation">
-                                <span class="input-group-text" id="basic-addon1"><img src="images/Vector.png"
-                                        alt=""></span>
-                                <input type="email" class="form-control" placeholder="Enter your registered email"
-                                    required>
-                                <div class="invalid-feedback">
-                                    Please provide valid Email ID.
-                                </div>
-                            </div>
-                            <div class="input-group mb-3 has-validation">
-                                <span class="input-group-text" id="basic-addon2"><img src="images/Vector-1.png"
-                                        alt=""></span>
-                                <input type="password" class="form-control" placeholder="Enter your password" required>
-                                <div class="invalid-feedback">
-                                    Please enter your password.
-                                </div>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                                <div class="float-end">
-                                    <a href="forgot-pass.html">Forgot Password?</a>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            <div class="mt-3">
-                                <a href="signup.html" class="text-primary">Create New?</a>
-                            </div>
+
+                            <button type="submit" class="btn btn-primary whybtn">Verify</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- whatsapp icon -->
     <div class="fixed-icon">
         <a href="https://wa.me/+919980494887" data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp Us">
-            <img src="images/whatsapp-icon.png" width="50px" alt="">
+            <img src="../images/whatsapp-icon.png" width="50px" alt="">
         </a>
     </div>
 
@@ -200,9 +248,9 @@
                 <div class="col-md-2 pages">
                     <h4 class="mb-3">Pages</h4>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="index.html" class="text-light">Home</a></li>
+                            href="../index.html" class="text-light">Home</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="about.html" class="text-light">About</a></li>
+                            href="../about.html" class="text-light">About</a></li>
 
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
                             href="https://1stop.ai/verify-certificate" target="_blank" class="text-light">Verify
@@ -211,14 +259,14 @@
                 <div class="col-md-3 doc">
                     <h4 class="mb-3">Documents</h4>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1Stop_Terms-of-Use.pdf" target="_blank" class="text-light">Terms of
+                            href="../images/1Stop_Terms-of-Use.pdf" target="_blank" class="text-light">Terms of
                             use</a></li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1stopai-PRIVACY-POLICY.pdf" target="_blank" class="text-light">Privacy
+                            href="../images/1stopai-PRIVACY-POLICY.pdf" target="_blank" class="text-light">Privacy
                             Policy</a>
                     </li>
                     <li class="mb-1"><span class="text-orange me-2"><i class="fa-solid fa-angle-right"></i></span><a
-                            href="images/1Stop-Refund-Policy.pdf" target="_blank" class="text-light">Refund Policy</a>
+                            href="../images/1Stop-Refund-Policy.pdf" target="_blank" class="text-light">Refund Policy</a>
                     </li>
                 </div>
                 <div class="col-md-3 address">
@@ -236,24 +284,24 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="text-light">1Stop Private Limited © 2024. All Rights Reserved.</p>
-                    <p class="text-light">100% safe and secure payment with <img src="images/instamojo-logo.png"
-                            width="100px" alt=""> & <img src="images/razorpay.png" width="100px" alt=""></p>
+                    <p class="text-light">100% safe and secure payment with <img src="../images/instamojo-logo.png"
+                            width="100px" alt=""> & <img src="../images/razorpay.png" width="100px" alt=""></p>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex justify-content-end align-items-center">
                         <div class="social-icon m-1">
                             <a href="https://www.instagram.com/1stop.ai/" target="_blank">
-                                <img src="images/icons_instagram.png" width="30px" alt="">
+                                <img src="../images/icons_instagram.png" width="30px" alt="">
                             </a>
                         </div>
                         <div class="social-icon m-1">
                             <a href="https://www.linkedin.com/company/1stop-ai/?viewAsMember=true" target="_blank">
-                                <img src="images/icons_linkedin.png" width="30px" alt="">
+                                <img src="../images/icons_linkedin.png" width="30px" alt="">
                             </a>
                         </div>
                         <div class="social-icon m-1">
                             <a href="https://www.facebook.com/1Stopai-102490171820303" target="_blank">
-                                <img src="images/logos_facebook.png" width="30px" alt="">
+                                <img src="../images/logos_facebook.png" width="30px" alt="">
                             </a>
                         </div>
                     </div>
@@ -267,29 +315,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-            'use strict'
-
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })()
-    </script>
 </body>
 
 </html>
