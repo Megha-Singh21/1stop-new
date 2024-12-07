@@ -887,7 +887,7 @@ footer {
     margin-bottom: 10px !important;
   }
   .ca-section1{
-    height: 370px;
+    height: 420px;
   }
   .ca-section1 .align-items-center{
     align-items: start !important;
@@ -904,5 +904,15 @@ footer {
   .btn-style, .btn-style2, .btn-style3, .btn-style4{
     font-size: 14px;
   }
+  .step-1.p-5, .step-2.p-5, .step-3.p-5{
+    padding-left: 30px !important;
+  }
+  .step-1, .step-2, .step-3 {
+    height: 225px; 
+}
+.step-1 p, .step-2 p, .step-3 p{
+  font-size: 13px;
+}
+
 
 }
