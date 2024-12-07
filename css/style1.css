@@ -141,6 +141,11 @@ li {
     font-size: 13px;
 }
 
+.owl-carousel .owl-stage-outer {
+    padding-top: 0px;
+  
+  }
+
 /* ============ nav dropdown desktop view ============ */
 @media all and (min-width: 992px) {
     .dropdown-menu li {
