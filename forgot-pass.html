@@ -146,7 +146,7 @@
                                     Please provide valid Email ID.
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-style2">Reset</button>
+                            <button type="submit" class="btn btn-style2" data-bs-target="#notifyModal" data-bs-toggle="modal">Reset</button>
                         </form>
                     </div>
                 </div>
@@ -245,6 +245,20 @@
             </div>
         </div>
     </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="notifyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="text-center">
+                        <img src="images/check.gif" width="200px" alt="">
+                        <h4><b>Password has been sent to your registered Email ID.</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
