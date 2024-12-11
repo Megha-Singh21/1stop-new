@@ -84,6 +84,17 @@ li {
   font-weight: 600;
 }
 
+.head-2{
+  background: linear-gradient(90deg, #f5d51c 0%, #e7c30c 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+.hr-line{
+  background: linear-gradient(90deg,#2a2301 , #947e02, #2a2301);
+  height: 4px;
+}
+
 .mt-neg-1 {
   margin-top: -10px;
 }
