@@ -84,14 +84,15 @@ li {
   font-weight: 600;
 }
 
-.head-2{
+.head-2 {
   background: linear-gradient(90deg, #f5d51c 0%, #e7c30c 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
-.hr-line{
-  background: linear-gradient(90deg,#2a2301 , #947e02, #2a2301);
+
+.hr-line {
+  background: linear-gradient(90deg, #2a2301, #947e02, #2a2301);
   height: 4px;
 }
 
@@ -942,5 +943,85 @@ footer {
   .step-2 p,
   .step-3 p {
     font-size: 13px;
+  }
+}
+
+@media (min-width: 1620px) and (max-width: 1920px) {
+  .t-30 img {
+    width: 170%;
+  }
+
+  .splide {
+    .splide__slide {
+      height: 445px !important;
+    }
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1399px) {
+  .t-30 {
+    top: 34%;
+  }
+
+  .splide {
+    & .splide__slide {
+      .card-hero {
+        height: 94%;
+      }
+    }
+  }
+
+  .mentors .card {
+    height: 375px;
+  }
+
+  .mentor-card {
+    height: 140px;
+  }
+  .step-1 p,
+  .step-2 p,
+  .step-3 p {
+    font-size: 14px;
+  }
+  .step-1 .mt-5,
+  .step-2 .mt-5,
+  .step-3 .mt-5 {
+    margin-top: 0px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1319px){
+  .t-30 {
+    top: 34%;
+  }
+  .t-30 img{
+    width: 130%;
+  }
+  .h1, h1{
+    font-size: 2.1rem;
+  }
+  .splide {
+    & .splide__slide {
+      .card-hero {
+        height: 87%;
+      }
+    }
+  }
+  .mentors .card {
+    height: 375px;
+  }
+
+  .mentor-card {
+    height: 140px;
+  }
+  .step-1 p,
+  .step-2 p,
+  .step-3 p {
+    font-size: 14px;
+  }
+  .step-1 .mt-5,
+  .step-2 .mt-5,
+  .step-3 .mt-5 {
+    margin-top: 10px !important;
   }
 }
