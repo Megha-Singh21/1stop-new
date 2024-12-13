@@ -944,6 +944,10 @@ footer {
   .step-3 p {
     font-size: 13px;
   }
+  .job-page div, .job-page div.float-end{
+    text-align: center;
+    float: none !important;
+  }
 }
 
 @media (min-width: 1620px) and (max-width: 1920px) {
