@@ -85,7 +85,7 @@ li {
 }
 
 .head-2 {
-  background: linear-gradient(90deg, #f5d51c 0%, #e7c30c 60%);
+  background: linear-gradient(90deg, #bea201, #967d00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -653,6 +653,9 @@ footer {
   font-weight: 800;
 }
 
+.card-reward{
+  background-image: linear-gradient(45deg, rgb(9, 9, 9), rgb(71, 57, 0));
+}
 .card-reward-1 {
   background-image: linear-gradient(45deg, rgba(93, 0, 255, 0.397), rgba(255, 0, 200, 0.714));
   padding: 20px 10px;
@@ -666,13 +669,19 @@ footer {
 }
 
 .card-reward-3 {
-  background-image: linear-gradient(45deg, #31ff839f, rgba(0, 196, 183, 0.732));
+  background-image: linear-gradient(45deg, #03b048b4, rgba(4, 136, 128, 0.846));
   padding: 20px 10px;
   color: #fff;
 }
 
 .card-reward-4 {
   background-image: linear-gradient(45deg, #7231ff5a, rgba(122, 7, 253, 0.875));
+  padding: 20px 10px;
+  color: #fff;
+}
+
+.card-reward-5 {
+  background-image: linear-gradient(45deg, #efb907f6, rgba(235, 145, 0, 0.875));
   padding: 20px 10px;
   color: #fff;
 }
@@ -701,6 +710,60 @@ footer {
 
 .fs-7 {
   font-size: 13px;
+}
+.bx-1{
+  border-left: 1px solid #FF6700;
+  border-right: 1px solid #FF6700;
+}
+
+.enroll-step-1{
+  background-color: rgb(3, 81, 159);
+  color: #fff;
+  height: 180px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px 25px 25px -8px #0266b86e;
+}
+
+.enroll-step-2{
+  background-color: rgb(237, 147, 3);
+  color: #fff;
+  height: 180px;
+  padding: 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 25px 25px -8px #c493006e;
+}
+
+.enroll-step-3{
+  background-color: rgb(237, 89, 3);
+  color: #fff;
+  height: 180px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px 25px 25px -8px #c472006e;
+}
+
+.enroll-step-4{
+  background-color: rgb(2, 182, 137);
+  color: #fff;
+  height: 180px;
+  padding: 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 25px 25px -8px #01c89d6e;
+}
+
+.enroll-step-5{
+  background-color: rgb(0, 56, 71);
+  color: #fff;
+  height: 180px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px 25px 25px -8px #00506c6e;
 }
 
 /* ============ nav dropdown desktop view ============ */
@@ -947,6 +1010,12 @@ footer {
   .job-page div, .job-page div.float-end{
     text-align: center;
     float: none !important;
+  }
+  .card-reward h4{
+    font-size: 13px;
+  }
+  .card-reward h5{
+    font-size: 12px;
   }
 }
 
