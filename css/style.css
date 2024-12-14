@@ -1017,6 +1017,19 @@ footer {
   .card-reward h5{
     font-size: 12px;
   }
+
+  .bx-1{
+    border-left: none;
+    border-right: none;
+  }
+  .p-3{
+    padding: 10px !important;
+    padding-top: 0px !important;
+  }
+
+  #gold-price .align-items-center{
+    justify-content: center !important;
+  }
 }
 
 @media (min-width: 1620px) and (max-width: 1920px) {
