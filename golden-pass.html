@@ -1126,7 +1126,7 @@
             <img src="images/Rectangle-73.png" alt="">
         </div>
 
-        <div class="row justify-content-center align-items-center mt-2">
+        <div class="row justify-content-center align-items-center mt-2 m-none">
             <div class="col-md-1 m-none"></div>
             <div class="col-md-2 col-6 py-2 text-center">
                 <img src="images/zee-news.png" width="100px" alt="">
@@ -1158,6 +1158,50 @@
             </div>
             <div class="col-md-3 m-none"></div>
             
+        </div>
+        <div class="d-none m-block news">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/zee-news.png" width="80px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/BBC-NEWS.png" width="80px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/V6-NEWS.png" width="80px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/ABP_News.png" width="100px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/Times-Now.png" width="100px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/News-24.png" width="100px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/India-TV.png" width="100px" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/CNN-LOGO.png" width="100px" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1319,6 +1363,28 @@
                 },
                 600: {
                     items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+    <script>
+        $('.news .owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 3,
+                    nav: true
+                },
+                600: {
+                    items: 3,
                     nav: false
                 },
                 1000: {
