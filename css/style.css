@@ -868,7 +868,7 @@ footer {
   }
 
   .course-content {
-    margin-top: -10px;
+    margin-top: 5px;
   }
 
   .mentor-card {
@@ -1042,6 +1042,9 @@ footer {
   .news .owl-carousel .owl-stage-outer{
     padding-top: 10px;
   }
+  .mcf-ibm .owl-carousel .owl-stage-outer {
+    padding-top: 10px;
+}
 }
 
 @media (min-width: 1620px) and (max-width: 1920px) {
