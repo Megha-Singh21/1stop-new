@@ -1048,6 +1048,11 @@ footer {
   overflow: hidden;
 }
 
+.job-scroll{
+  height: 650px;
+  overflow-y: scroll;
+}
+
 /* ============ nav dropdown desktop view ============ */
 @media all and (min-width: 992px) {
   .dropdown-menu li {
@@ -1336,6 +1341,11 @@ footer {
 .comp-logo {
   width: 70px;
   height: 45px;
+}
+.job-scroll{
+  height: 220px;
+  overflow-y: scroll;
+  display: block;
 }
 }
 
